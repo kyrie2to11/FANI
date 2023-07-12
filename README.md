@@ -168,15 +168,12 @@ The main arguments are as follows:
 
 - [AI benchmark](https://ai-benchmark.com/): An app allowing you to load your model and run it locally on your own Android devices with various acceleration options (e.g. CPU, GPU, APU, etc.).
 
-
 [[back]](#contents)
 
 ---
 
 ### License
 
-Mediatek License: [Mediatek Apache License 2.0](LICENSE)
+FANI is released under the [MIT license](LICENSE).
 
 [[back]](#contents)
-
-
