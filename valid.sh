@@ -1,0 +1,1 @@
+nohup python run.py --process test --config_path config.yml &

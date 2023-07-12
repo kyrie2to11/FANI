@@ -1,0 +1,1 @@
+nohup python run.py --process train --config_path config.yml &

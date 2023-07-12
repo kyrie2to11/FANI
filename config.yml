@@ -1,0 +1,41 @@
+log_dir: snapshot
+
+dataset:
+    dataloader_settings:
+        train:
+            batch_size: 4
+            drop_remainder: True
+            shuffle: True
+            num_parallel_calls: 16
+        val:
+            batch_size: 1
+    data_dir: /root/autodl-tmp/REDS
+    degradation: sharp_bicubic
+    train_frame_num: 10
+    test_frame_num: 100
+    crop_size: 64
+
+model:
+    path: model/fani.py
+    name: FANI
+
+learner:
+    general:
+        total_steps: 50000
+        log_train_info_steps: 100
+        keep_ckpt_steps: 2000
+        valid_steps: 1000
+
+    optimizer:
+        name: Adam
+        beta_1: 0.9
+        beta_2: 0.999
+
+    lr_scheduler:
+        name: PiecewiseConstantDecay
+        boundaries: [20000, 30000, 40000]
+        values: [0.001, 0.0005, 0.00025, 0.0001]
+
+# restore_ckpt: snapshot/ckpt-xx
+    saver:
+        restore_ckpt: snapshot/ckpt-24

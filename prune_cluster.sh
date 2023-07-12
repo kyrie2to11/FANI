@@ -1,0 +1,1 @@
+nohup python run.py --process prune_cluster --config_path config.yml &
