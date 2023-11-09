@@ -19,6 +19,7 @@ This repository provides the tensorflow implementation of the Video Super-resolu
     - [Convert to tflite](#convert-to-tflite)
     - [TFLite inference on Mobile](#tflite-inference-on-mobile)
     - [License](#license)
+    - [Citation](#citation)
 
 ---
 
@@ -176,4 +177,28 @@ The main arguments are as follows:
 
 FANI is released under the [MIT license](LICENSE).
 
+[[back]](#contents)
+
+---
+### Citation
+```
+@misc{https://doi.org/10.48550/arxiv.2302.12288,
+  doi = {10.48550/ARXIV.2302.12288},
+  
+  url = {https://arxiv.org/abs/2302.12288},
+  
+  author = {Bhat, Shariq Farooq and Birkl, Reiner and Wofk, Diana and Wonka, Peter and Müller, Matthias},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth},
+  
+  publisher = {arXiv},
+  
+  year = {2023},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+```
 [[back]](#contents)
