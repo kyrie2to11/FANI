@@ -35,7 +35,7 @@ def _interpret_level(key):
 
 
 # logger name, also prefix to each log line.
-_LOGGER_NAME = 'MAI VSR'  # logger name, also the log prefix
+_LOGGER_NAME = 'Mobile VSR'  # logger name, also the log prefix
 
 # log level preference, default is INFO
 # mai_vsr_LOG_LEVEL have lower priority than mai_vsr_NDEBUG
